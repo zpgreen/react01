@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
 
     <Wrapper>
-      <Hello name="CHUL" firstNm="Gang" color="red" isSpeacial={true} />
+      <Hello name="IN CHUL" firstNm="Gang" color="red" isSpeacial={true} />
       <Counter />
       <InputSample></InputSample>
     </Wrapper>
