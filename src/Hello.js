@@ -16,6 +16,7 @@ function Hello({ isSpeacial, firstNm, name, color }) {
         </>
     )
 }
+
 Hello.defaultProps = {
     name: '이름없음'
 }
