@@ -11,12 +11,14 @@ import InputSample from './InputSample';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
 
-    <Wrapper>
-      <Hello name="IN CHUL" firstNm="Gang" color="red" isSpeacial={true} />
-      <Counter />
-      <InputSample></InputSample>
-    </Wrapper>
+      <Wrapper>
+        <Hello name="IN CHUL" firstNm="Gang" color="red" isSpeacial={true} />
+        <Counter />
+        <InputSample></InputSample>
+      </Wrapper>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
