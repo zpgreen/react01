@@ -6,7 +6,7 @@ import Hello from './Hello';
 import Wrapper from './Wrapper';
 import Counter from './Counter';
 import InputSample from './InputSample';
-import {BrowserRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +14,7 @@ root.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
 
       <Wrapper>
-        <Hello name="In Chul" firstNm="Gang" color="red" isSpeacial={true} />
+        <Hello name="In Chul" firstNm="Kang" color="red" isSpeacial={true} />
         <Counter />
         <InputSample></InputSample>
       </Wrapper>
