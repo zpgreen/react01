@@ -14,7 +14,11 @@ root.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
 
       <Wrapper>
+<<<<<<< HEAD
         <Hello name="chul" firstNm="KKang" color="red" isSpeacial={true} />
+=======
+        <Hello name="In Chul" firstNm="Kang" color="red" isSpeacial={true} />
+>>>>>>> d113f3f (Kang)
         <Counter />
         <InputSample></InputSample>
       </Wrapper>
