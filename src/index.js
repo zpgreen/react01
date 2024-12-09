@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Hello from './Hello';
-import Wrapper from './Wrapper';
-import Counter from './Counter';
-import InputSample from './InputSample';
 import { BrowserRouter } from 'react-router-dom';
+import Counter from './Counter';
+import Hello from './Hello';
+import './index.css';
+import InputSample from './InputSample';
+import reportWebVitals from './reportWebVitals';
+import Wrapper from './Wrapper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,11 +14,7 @@ root.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
 
       <Wrapper>
-<<<<<<< HEAD
-        <Hello name="chul" firstNm="KKang" color="red" isSpeacial={true} />
-=======
-        <Hello name="In Chul" firstNm="Kang" color="red" isSpeacial={true} />
->>>>>>> d113f3f (Kang)
+        <Hello name="ickang" firstNm="Gang" color="red" isSpeacial={true} />
         <Counter />
         <InputSample></InputSample>
       </Wrapper>
