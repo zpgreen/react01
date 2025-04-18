@@ -17,7 +17,7 @@ function Hello({ isSpeacial, firstNm, name, color }) {
     )
 }
 
-Hello.defaultProps = {
-    name: '이름없음'
-}
+// Hello.defaultProps = {
+//     name: '이름없음'
+// }
 export default Hello
